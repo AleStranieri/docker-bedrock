@@ -11,3 +11,5 @@ RUN docker-php-ext-install pdo pdo_mysql mysqli
 # RUN echo "mailhub=maildev" >> /etc/ssmtp/ssmtp.conf
 
 # RUN echo "sendmail_path=sendmail -i -t" >> /usr/local/etc/php/conf.d/php-sendmail.ini
+
+#RUN echo "127.0.0.1 mysite.local" >> /etc/hosts
