@@ -17,9 +17,9 @@ Configure Bedrock following the instructions: https://github.com/roots/bedrock
 
 ### Configurations 
 
-For DB_HOST variable in .env file use_ `DB_HOST=db:3306`  
-For WP_HOME use the same domain from site.conf_ `server_name`
-Add `127.0.0.1 write_here_your_server_name`  in your `/etc/hosts`
+* For DB_HOST variable in .env file use_ `DB_HOST=db:3306`  
+* For WP_HOME use the same domain from site.conf_ `server_name`
+* Add `127.0.0.1 write_here_your_server_name`  in your `/etc/hosts`
 
 
 ## Start 
