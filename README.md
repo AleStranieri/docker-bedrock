@@ -13,10 +13,17 @@ then you have to install Bedrock dependencies:
 $ composer install
 ```
 
-Configure Bedrock following the instructions: https://github.com/roots/bedrock
+create default.crt and default.key in the folder certs
+
+```
+$ cd certs
+$ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout default.key -out default.crt
+```
+
 
 ### Configurations 
 
+* Configure Bedrock following the instructions: https://github.com/roots/bedrock
 * For DB_HOST variable in .env file use_ `DB_HOST=db:3306`  
 * For WP_HOME use the same domain from site.conf_ `server_name`
 * Add `127.0.0.1 write_here_your_server_name`  in your `/etc/hosts`

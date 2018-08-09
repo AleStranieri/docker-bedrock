@@ -5,10 +5,12 @@ services:
   web:
     image: nginx:latest
     ports:
+      - "443:443"
       - "80:80"
     volumes:
       - ./bedrock/:/bedrock/
       - ./site.conf:/etc/nginx/conf.d/site.conf
+      - ./certs:/etc/nginx/certs
     links:
       - php
 
