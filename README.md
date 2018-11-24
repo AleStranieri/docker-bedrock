@@ -13,7 +13,7 @@ then you have to install Bedrock dependencies:
 $ composer install
 ```
 
-create default.crt and default.key in the folder certs
+In the root directory create default.crt and default.key in the folder certs
 
 ```
 $ cd certs
